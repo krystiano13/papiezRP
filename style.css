@@ -1,0 +1,47 @@
+h1 {
+  font-family: 'Caveat Brush', cursive;
+  text-align: center;
+  text-shadow: 0 0 0.2em #87f, 0 0 0.2em #87f, 0 0 0.2em #87f;
+  width: 100vw;
+  padding-top: 8vh;
+  font-size: 2.8vw;
+}
+body {
+  background-color: #102957;
+  margin: 0;
+  width: 100vh;
+  height: 100vh;
+  overflow: hidden;
+}
+.wyglad {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  align-items: center;
+}
+.serce {
+  width: 80vh;
+  height: 80vh;
+  display: block;
+}
+
+.przycisk {
+  background: transparent;
+  padding: 25px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #303754;
+  transition: 0.5s background-color;
+  background: #303754;
+  font-family: 'Caveat Brush', cursive;
+  color: #fff;
+  height: 10vh;
+  width: 10vw;
+  font-size: 1vw;
+  cursor: pointer;
+  will-change: background-color;
+}
+
+.przycisk:hover {
+  background-color: orange;
+}
